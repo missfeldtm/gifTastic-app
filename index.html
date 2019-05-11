@@ -7,29 +7,36 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
+ 
 </head>
 
 <body>
-<header>
-    <h1>Giphy search</h1>
 
-    <form action="" method="post">
+    <header>
+        <h1>Giphy search</h1>
 
-        <label for="" style="display:none">Search</label>
-        <input type="text" id="giphy-input" class="search" name="search" placeholder="type your favorite gifs" required>
-        <input class="btn" id="addGiphy" type="submit" value="ok">
-        <input class="btn clear" type="submit" value="clear" readonly>
+        <div id="btn-area" class="btn">
+
+        </div>
+
+        <form method="post">
+
+            <label style="display:none">Search</label>
+            <input type="text" id="giphy-input" class="search" name="search" placeholder="type your favorite gifs"
+                required>
+            <input class="btn" id="addGiphy" type="submit" value="ok">
+            <input class="btn clear" id="clear" type="submit" value="clear" >
 
 
-    </form>
+        </form>
 
-</header>
+    </header>
 
-<section>
-    <div class="giphy">
-        
-    </div>
-</section>
+    <section>
+        <div class="giphy">
+
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>

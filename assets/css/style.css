@@ -64,6 +64,14 @@ form .btn{
     width:60px;
 }
 
+.dog{
+    background: rgba(256,256,256, 0.3);
+    cursor: pointer;
+    padding: .5rem;
+    margin: .5rem .25rem .5rem .25rem;
+
+}
+
 .giphy{
     padding:20px 0 15px 0;
 }
